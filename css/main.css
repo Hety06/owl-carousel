@@ -1,0 +1,14 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fefeef;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'Galada', cursive;
+}
+
+.item {
+
+}

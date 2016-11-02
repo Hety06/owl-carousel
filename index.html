@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Owl Carousel Demo</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>The Infinite Wonders of Space</h1>
+    <!-- Carousel -->
+    <div class="owl-carousel">
+      <div class="item"><img src="space/space1.png"></div>
+      <div class="item"><img src="space/space2.png"></div>
+      <div class="item"><img src="space/space3.png"></div>
+      <div class="item"><img src="space/space4.png"></div>
+      <div class="item"><img src="space/space5.png"></div>
+      <div class="item"><img src="space/space6.png"></div>
+      <div class="item"><img src="space/space7.png"></div>
+      <div class="item"><img src="space/space8.png"></div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1,
+          loop : true,
+          autoplay : true,
+          autoplayHoverPause : true,
+          autoplayTimeout : 5000
+      })
+     })
+    </script>
+  </body>
+</html>
